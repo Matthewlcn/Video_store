@@ -1,0 +1,138 @@
+
+/*divers*/
+.welcome {
+    text-align: center;
+    margin: 3rem auto 1.5rem;
+    padding: 2rem;
+    max-width: 800px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.welcome h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+form {
+    max-width: 420px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 0.85rem;
+    margin: 0.7rem 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #004a99;
+    transform: scale(1.02);
+}
+
+.video-section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: #1f1f1f;
+  font-weight: 700;
+  position: relative;
+}
+
+
+
+
+.videos-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .video-preview-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .video-preview-card h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .video-preview-card p {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .video-preview-card form {
+    margin-bottom: 1rem;
+  }
+  
+  .video-preview-card input[type="submit"] {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .video-preview-card input[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  .video-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  
+  .video-link:hover {
+    text-decoration: underline;
+  }
+  
+  .video-card-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+

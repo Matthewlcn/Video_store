@@ -1,0 +1,44 @@
+
+/*boutons*/
+.btn, .btn-nav {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover, .btn-nav:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,123,255,0.2);
+}
+
+.btn-nav {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-nav:hover {
+    background: #007bff;
+    color: white;
+}
+
+.btn-pseudo {
+    background-color: #ffffff10;
+    border-color: #ffffff20;
+    color: #ffffff;
+    backdrop-filter: blur(4px);
+    font-size: 0.9rem;
+}
+
+.btn-pseudo:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}

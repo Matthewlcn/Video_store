@@ -1,0 +1,35 @@
+
+/*cart*/
+.cart-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item p {
+    margin: 0.3rem 0;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.cart-buttons {
+    text-align: right;
+    margin-top: 1rem;
+}

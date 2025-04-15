@@ -1,0 +1,72 @@
+
+/*profil*/
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    padding: 2rem 1rem;
+}
+
+.profile-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    color: #222;
+}
+
+.profile-card h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.profile-card h3 {
+    margin-top: 2rem;
+    color: #333;
+}
+
+.profile-card p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.profile-card input[type="password"],
+.profile-card input[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.profile-card input[type="submit"] {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profile-card input[type="submit"]:hover {
+    background: linear-gradient(to right, #0056b3, #00408d);
+}
+
+.btn-logout {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    text-decoration: underline;
+}

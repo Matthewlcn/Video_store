@@ -1,0 +1,52 @@
+
+/*header*/
+header, footer {
+    background: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 0.95rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    background-color: #1f1f1f;
+    border-bottom: 2px solid #007bff;
+}
+
+.site-title a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+

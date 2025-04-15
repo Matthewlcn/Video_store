@@ -1,0 +1,120 @@
+.video-details {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+}
+
+.video-details h1 {
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.video-details p {
+    margin: 0.5rem 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); 
+    padding: 2rem 1rem;
+}
+
+.video-card-container {
+    background: white;
+    padding: 2.5rem;
+    margin: 3rem auto;
+    max-width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    color: #222;
+    line-height: 1.6;
+}
+
+.video-card-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-align: center;
+}
+
+.video-card-container p {
+    margin-bottom: 1rem;
+}
+
+.video-card-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.video-card-container a:hover {
+    text-decoration: underline;
+}
+
+.video-card-container form {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.video-card-container input[type="submit"] {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.video-card-container input[type="submit"]:hover {
+    background: #004a99;
+}
+
+.video-description {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    color: #444;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.video-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-info-card {
+    flex: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .video-details-wrapper {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .video-image img {
+      width: 300px;
+    }
+  }
+  
